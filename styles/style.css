@@ -96,6 +96,25 @@ width: 600;
 }
 
 /* category-card */
+.shoes-backpack-parent{
+    background: rgb(241, 241, 241);
+}
+.category{
+    margin: auto;
+}
+.shoes-backpack-section-title-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.shoes-backpack-section-title-parent h2{
+    font-weight: bold;
+    font-size: 36px;
+}
+.shoes-backpack-section-title-parent p{
+    color: #ff9d00;
+    font-size: 20px;
+
+}
 .category-card-container{
     display: flex;
     gap: 26px;
@@ -153,4 +172,23 @@ border-radius: 10px;
 }
 .shoes-card .panda-btn{
     background:black ;
+}
+
+
+/* contact section */
+.contact-us-parent{
+    background-color: #fff2f1 ;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 35px auto;
+    border-radius: 15px;
+}
+.contact-input-parent input{
+border: none;
+padding: 15px 152px;
+}
+.contact-input-parent .panda-btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
 }
