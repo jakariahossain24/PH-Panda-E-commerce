@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 .container{
     max-width: 1100px;
@@ -154,7 +155,11 @@ border-radius: 10px;
     border-radius: 10px;
     text-align: center;
     padding: 25px;
+    box-shadow: 10px 12px 23px -1px rgba(0,60,176,0.83);
+-webkit-box-shadow: 10px 12px 23px -1px rgba(0,60,176,0.83);
+-moz-box-shadow: 10px 12px 23px -1px rgba(0,60,176,0.83);
 }
+
 .shoes-section{
     background: rgb(244, 244, 244);
     padding: 50px 0px;
