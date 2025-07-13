@@ -8,6 +8,13 @@
 
 }
 /* common css */
+.category{
+    margin: 64px 0px;
+}
+.common-section-title{
+    font-weight: 600;
+    font-size: 36px;
+}
 .panda-btn{
     border-radius: 6px;
   background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
@@ -92,6 +99,7 @@ width: 600;
 .category-card-container{
     display: flex;
     gap: 26px;
+    width: 100%;
 }
 .category-card{
 display: flex;
@@ -100,7 +108,7 @@ align-items: center;
 gap: 4px;
 padding: 20px;
 border-radius: 10px;
-    float:1;
+    flex:1;
 }
 .category-card h3{
     color: white;
@@ -115,4 +123,34 @@ border-radius: 10px;
 }
 .category-card-3{
     background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+}
+.card-price{
+    display: block;
+    font-weight: 600;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.shoes-card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 25px;
+}
+.shoes-section{
+    background: rgb(244, 244, 244);
+    padding: 50px 0px;
+}
+.shoes-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+   
+
+}
+.shoes-card img{
+    width: 336px;
+    height: 202px;
+}
+.shoes-card .panda-btn{
+    background:black ;
 }
