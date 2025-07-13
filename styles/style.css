@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 .container{
     max-width: 1100px;
@@ -85,4 +86,33 @@ width: 600;
     display: block;
     margin-bottom: 0px;
 
+}
+
+/* category-card */
+.category-card-container{
+    display: flex;
+    gap: 26px;
+}
+.category-card{
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 4px;
+padding: 20px;
+border-radius: 10px;
+    float:1;
+}
+.category-card h3{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.category-card-1{
+    background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+}
+.category-card-2{
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.category-card-3{
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
 }
